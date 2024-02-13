@@ -1,5 +1,5 @@
 # Rethinking Amodal Video Segmentation from Learning Supervised Signals with Object-centric Representation
-Ke Fan\*, Jingshi Lei\*, [Xuelin Qian†](https://naiq.github.io/), Miaopeng Yu, [Tianjun Xiao†](https://tianjunxiao.com/), [Tong He](https://hetong007.github.io/), [Zheng Zhang](https://www.amazon.science/author/zheng-zhang), [Yanwei Fu](https://yanweifu.github.io/)
+[Ke Fan](https://github.com/kfan21)\*, [Jingshi Lei](https://github.com/cc-crow)\*, [Xuelin Qian†](https://naiq.github.io/), Miaopeng Yu, [Tianjun Xiao†](https://tianjunxiao.com/), [Tong He](https://hetong007.github.io/), [Zheng Zhang](https://www.amazon.science/author/zheng-zhang), [Yanwei Fu](https://yanweifu.github.io/)
 
 # Introduction
 <img src='./imgs/framework.jpg' width="100%">
@@ -25,9 +25,9 @@ pip install -r requirements.txt
 The code of EoRaS will be release upon passing the review of Amazon.
 | Dataset | $\text{mIoU}_{full}$ |  $\text{mIoU}_{occ}$  | checkpoint |
 |---------|:---:|:---:|------------|
-| [MOVI-B]()  | 79.22 | 47.89             | [Link]()              |
-| [MOVI-D]()  | 69.44 | 36.96             | [Link]()              |
-| [KITTI]()   | 87.07 | 52.00             | [Link]()              |
+| [MOVI-B](https://data.dgl.ai/dataset/EoRas/MOVi-B.tar.gz)  | 79.22 | 47.89             | [Link](https://data.dgl.ai/dataset/EoRas/checkpoints/wd_5e-4_full_wobevgt_bid_vislam%3D1_occlam%3D0_bevlambda%3D0_movib_slot8_possincos/checkpoint-0050.pth.gz)              |
+| [MOVI-D](https://data.dgl.ai/dataset/EoRas/MOVi-D.tar.gz)  | 69.44 | 36.96             | [Link](https://data.dgl.ai/dataset/EoRas/checkpoints/wd_5e-4_full_wobevgt_bid_vislam%3D1_occlam%3D0_bevlambda%3D0_movid_slot8_possincos/checkpoint-0050.pth.gz)             |
+| [KITTI](https://dgl-data.s3.us-west-2.amazonaws.com/dataset/SaVos_release/KINS_Video_Car/KINS_Video_Car.zip)   | 87.07 | 52.00             | [Link](https://data.dgl.ai/dataset/EoRas/checkpoints/wd_5e-4_full_wobevgt_bid_vislam%3D1_occlam%3D0_bevlambda%3D0_kitti_slot8_possincos/checkpoint-0050.pth.gz)              |
 
 # Running Experiments
 ## MOVI-B
