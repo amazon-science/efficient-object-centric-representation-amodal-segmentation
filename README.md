@@ -2,7 +2,7 @@
 [![ArXiv](https://img.shields.io/badge/ArXiv-2309.13248-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2309.13248)[![HomePage](https://img.shields.io/badge/HomePage-Visit-blue.svg?logo=homeadvisor&logoColor=f5f5f5)](https://kfan21.github.io/EoRaS/)[![MOVi-B](https://img.shields.io/badge/Dataset-MOVi--B-F07B3F.svg)](https://data.dgl.ai/dataset/EoRas/MOVi-B.tar.gz)[![MOVi-D](https://img.shields.io/badge/Dataset-MOVi--D-F07B3F.svg)](https://data.dgl.ai/dataset/EoRas/MOVi-D.tar.gz)[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/amazon-science/efficient-object-centric-representation-amodal-segmentation/blob/main/LICENSE) 
 
 > [**Rethinking Amodal Video Segmentation from Learning Supervised Signals with Object-centric Representation**](https://arxiv.org/abs/2309.13248)<br>
-> [Ke Fan](https://kfan21.github.io/)\*, [Jingshi Lei](https://github.com/cc-crow)\*, [Xuelin Qian†](https://naiq.github.io/), [Miaopeng Yu](), [Tianjun Xiao†](https://tianjunxiao.com/), [Tong He](https://hetong007.github.io/), [Zheng Zhang](https://www.amazon.science/author/zheng-zhang), [Yanwei Fu](https://yanweifu.github.io/)
+> [Ke Fan\*](https://kfan21.github.io/), [Jingshi Lei\*](https://github.com/cc-crow), [Xuelin Qian†](https://naiq.github.io/), [Miaopeng Yu](), [Tianjun Xiao†](https://tianjunxiao.com/), [Tong He](https://hetong007.github.io/), [Zheng Zhang](https://www.amazon.science/author/zheng-zhang), [Yanwei Fu](https://yanweifu.github.io/)
 
 # Introduction
 
@@ -32,7 +32,6 @@ pip install -r requirements.txt
 
 
 # Code and Checkpoints
-The code of EoRaS will be release upon passing the review of Amazon.
 | Dataset | $\text{mIoU}_{full}$ |  $\text{mIoU}_{occ}$  | checkpoint |
 |---------|:---:|:---:|------------|
 | [MOVI-B](https://data.dgl.ai/dataset/EoRas/MOVi-B.tar.gz)  | 79.22 | 47.89             | [Link](https://data.dgl.ai/dataset/EoRas/checkpoints/wd_5e-4_full_wobevgt_bid_vislam%3D1_occlam%3D0_bevlambda%3D0_movib_slot8_possincos/checkpoint-0050.pth.gz)              |
