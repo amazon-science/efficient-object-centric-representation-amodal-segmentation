@@ -17,7 +17,6 @@ Illustrations of the difference between view prior, shape prior, and our model. 
 <img src='./imgs/framework.jpg' width="100%">
 </div>
 
-
 <div style="text-align: justify">
 <strong>EoRaS</strong> (<strong>E</strong>fficient <strong>o</strong>bject-centric <strong>R</strong>epresentation <strong>a</strong>modal <strong>S</strong>egmentation) is a framework designed for supervised video amodal segementation. The videos are first encoded by a convolutional neural network to get the front-view features. Then a translation module is used to project front-view features into the Bird’s-Eye View (BEV), which introduces 3D information to improve current feature quality. The front-view features and BEV features across the frames are integrated by a multi-view fusion layer based temporal module which is equipped with a set of object slots and interacts with features from different views by attention mechanism. Finally, the integrated front-view features are decoded into the visible and amodal masks.
 <div>
